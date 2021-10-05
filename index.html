@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/funciones.js"></script>
+        <title> Aplicación CABAÑAS </title>
+
+    </head>
+    <body>
+        <h1>Consulta Clientes</h1>
+        <br>
+        <div id="resultadoCliente"></div>
+        <br>
+        <div>
+            <input type="number" id="idCliente" placeholder="id" style="width: 45px" readonly>
+            <input type="text" id="name" placeholder="name" style="width: 205px">
+            <input type="text" id="email" placeholder="email" style="width: 205px">
+            <input type="number" id="age" placeholder="age" style="width: 40px">
+        </div>
+        <br>
+        <button onclick="consultarCliente()">Consultar</button>
+        <button onclick="adicionarCliente()">Adicionar</button>
+        <button onclick="actualizarCliente()">Actualizar</button>
+        <hr>
+        <h1>Consulta Cabañas</h1>
+        <br>
+        <div id="resultadoCabaña"></div>
+        <br>
+        <div>
+            <input type="number" id="idCabaña" placeholder="id" style="width: 45px" readonly>
+            <input type="text" id="brand" placeholder="brand" style="width: 205px">
+            <input type="number" id="rooms" placeholder="rooms" style="width: 85px">
+            <input type="number" id="category_id" placeholder="category_id" style="width: 75px">
+            <input type="text" id="name1" placeholder="name1" style="width: 200px">
+        </div>
+        <br>
+        <button onclick="consultarCabaña()">Consultar</button>
+        <button onclick="adicionarCabaña()">Adicionar</button>
+        <button onclick="actualizarCabaña()">Actualizar</button>
+        <hr>
+        <h1>Consulta Mensajes</h1>
+        <br>
+        <div id="resultadoMensaje"></div>
+        <br>
+        <div>
+            <input type="number" id="idMensaje" placeholder="id" style="width: 45px" readonly>
+            <input type="text" id="messagetext" placeholder="messagetext" style="width: 600px">
+        </div>
+        <br>
+        <button onclick="consultarMensaje()">Consultar</button>
+        <button onclick="adicionarMensaje()">Adicionar</button>
+        <button onclick="actualizarMensaje()">Actualizar</button>
+        <hr>
+
+
+    </body>
+</html>
